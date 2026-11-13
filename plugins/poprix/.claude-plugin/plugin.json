@@ -1,0 +1,25 @@
+{
+  "name": "poprix",
+  "displayName": "poprix",
+  "version": "1.0.0",
+  "description": "Work your poprix customer-service desk from Claude: review pending approvals, read conversations, search your knowledge base, and approve or decline drafted replies. Includes the poprix MCP server and skills.",
+  "author": {
+    "name": "poprix",
+    "email": "sales@poprix.ai",
+    "url": "https://poprix.ai"
+  },
+  "homepage": "https://poprix.ai/welcome/claude",
+  "license": "MIT",
+  "keywords": ["customer-service", "support", "whatsapp", "approvals", "mcp"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://poprix.ai/welcome/claude",
+  "supportUrl": "mailto:sales@poprix.ai",
+  "privacyPolicyUrl": "https://poprix.ai/privacy?lang=en",
+  "termsOfServiceUrl": "https://poprix.ai/terms?lang=en",
+  "mcpServers": {
+    "poprix": {
+      "type": "http",
+      "url": "https://poprix.ai/api/mcp"
+    }
+  }
+}

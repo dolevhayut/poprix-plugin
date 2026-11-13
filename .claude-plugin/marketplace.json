@@ -1,0 +1,17 @@
+{
+  "name": "poprix",
+  "description": "poprix for Claude: work your AI customer-service desk from Claude.",
+  "owner": {
+    "name": "poprix",
+    "url": "https://poprix.ai"
+  },
+  "plugins": [
+    {
+      "name": "poprix",
+      "source": "./plugins/poprix",
+      "description": "Review pending approvals, read customer conversations, search your knowledge base and approve or decline drafted replies. MCP server plus skills.",
+      "category": "productivity",
+      "tags": ["customer-service", "support", "whatsapp", "approvals", "mcp"]
+    }
+  ]
+}
